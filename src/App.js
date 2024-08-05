@@ -1,4 +1,5 @@
 import './App.css';
+import RefHook from "./components/RefHook";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header className="App-header">
         App Header
       </header>
+      <section>
+        <RefHook/>
+      </section>
     </div>
   );
 }
